@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXERCISE 9 BLOCK ELEMENTS</title>
+    <style>
+      p {
+        display: inline-block;
+        width: 200px;
+        vertical-align: middle;
+      }
+      .txt {
+        display: block;
+        margin-bottom: 5px;
+      }
+      .txt1 {
+        display: inline-block;
+        width: 200px;
+      }
+      img {
+        display: block;
+        width: 200px;
+        margin-left: 150px;
+        margin-bottom: 10px;
+      }
+
+      input {
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 16px;
+        width: 500px;
+        border-radius: 30px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+      }
+
+      .first-name {
+        width: 148px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(200, 200, 200);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 16px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+      }
+
+      .last-name {
+        width: 148px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(200, 200, 200);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 16px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+      }
+
+      .email {
+        display: block;
+        width: 335px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(200, 200, 200);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 16px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+      }
+
+      .sn {
+        background-color: rgb(47, 127, 231);
+        color: white;
+        border: none;
+        width: 370px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="txt" placeholder="Name" type="text" />
+    <input class="txt" placeholder="Email" type="text" />
+    <br /><br />
+    <p class="txt1">
+      Thanks for chatting with our customer support. Would you like to take our
+      quick survey?
+    </p>
+    <button class="but">Yes</button>
+    <button class="but">No</button>
+    <br /><br />
+    <img class="google-logo" src="thumbnail/Google-logo.png" />
+    <input type="text" placeholder="Search Google or type a URL" />
+    <br /><br />
+    <input class="first-name" type="text" placeholder="First name" />
+    <input class="last-name" type="text" placeholder="Last name" />
+    <input class="email" type="text" placeholder="Email" />
+    <button class="sn">Sign Up</button>
+  </body>
+</html>

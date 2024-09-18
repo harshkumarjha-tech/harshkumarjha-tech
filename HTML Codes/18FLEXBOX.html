@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXERCISE 18 FLEXBOX</title>
+    <style>
+     p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .imgg {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      .txt {
+        font-size: 18px;
+        border: none;
+        width: 300px;
+        
+      }
+      .but {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        vertical-align: middle;
+      }
+      .x {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+        max-width: 400px;
+        
+      }
+      .div1 {
+        width: 200px;
+      }
+      .div2 {
+        display: inline-block;
+        
+      }
+      .div {
+        display: inline-block;
+        margin-right: 10px;
+       
+      }
+      .txt1 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .txt2 {
+        color: rgb(100, 100, 100);
+        margin-bottom: 5px;
+        
+      }
+      .y{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        align-items: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 14px;
+        padding-left: 14px;
+        border-radius: 5px;
+      }
+      .bar {
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 16px;
+        width: 500px;
+        border-radius: 30px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+        
+      }
+      .strap-button {
+        background-color: purple;
+        color: white;
+        height: 36px;
+        width: 105px;
+        border-color: white;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 20px;
+        border-style: solid;
+        font-size: 16px;
+      
+        border-width: 1px;
+        transition: background-color 0.5s, color 0.5s;
+}
+
+.strap-button:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.search{
+  display: flex;
+  flex-direction: row;
+  background-color: purple;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  max-width: 1000px;
+}
+.para{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 18px;
+color: white;
+margin-left: 20px;
+}
+.tweet-button {
+  background-color: rgb(10, 2, 255);
+  color: white;
+  border: none;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  border-radius: 15px;
+
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+.noti{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  border-radius: 10px;
+  max-width: 500px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+
+}
+.not{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 490px;
+}
+.para1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-left: 10px;
+}
+    </style>
+  </head>
+
+  <body>
+    <br /><br />
+    <div class="x">
+        <div class="y">
+      <div class="div">
+        <img class="imgg" src="thumbnail/pexels-kelvin-valerio-617278.jpg" />
+      </div>
+      <div class="div1">
+        <p class="txt1">MAX</p>
+        <p class="txt2">The Cat</p>
+        <p class="txt2">Popular</p>
+      </div>
+      
+      <div class="div2">
+          <button class="but">Follow</button>
+        </div>
+    </div>
+    <div class="y">
+        <div class="div">
+          <img class="imgg" src="thumbnail/pexels-kelvin-valerio-617278.jpg" />
+        </div>
+        <div class="div1">
+          <p class="txt1">MAX</p>
+          <p class="txt2">The Cat</p>
+          <p class="txt2">Popular</p>
+        </div>
+        
+        <div class="div2">
+            <button class="but">Follow</button>
+          </div>
+      </div>
+      <div class="y">
+        <div class="div">
+          <img class="imgg" src="thumbnail/pexels-kelvin-valerio-617278.jpg" />
+        </div>
+        <div class="div1">
+          <p class="txt1">MAX</p>
+          <p class="txt2">The Cat</p>
+          <p class="txt2">Popular</p>
+        </div>
+        
+        <div class="div2">
+            <button class="but">Follow</button>
+          </div>
+      </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="search">
+        <div ><p class="para">Home</p></div>
+        <div ><input class="bar" type="search-button" placeholder="Search" /></div>
+        <div > <button class="strap-button">Download</button></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="noti">
+      <div class="not"><p class="para1">Home</p><button class="tweet-button">10</button></div>
+      <div class="not"><p class="para1">Notifications</p><button class="tweet-button">4</button></div>
+      <div class="not"><p class="para1">Messages</p><button class="tweet-button">69</button></div>
+  </div>
+  </body>
+</html>

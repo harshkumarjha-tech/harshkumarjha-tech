@@ -1,0 +1,197 @@
+.sub-button {
+  background-color: #cc0000;
+  color: white;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.5s;
+}
+
+.sub-button:hover {
+  opacity: 0.5;
+}
+
+.sub-button:active {
+  opacity: 0.2;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  padding-top: 9px;
+  padding-right: 15px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 1s, color 1s, opacity 0.5s;
+}
+
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.2;
+}
+
+.tweet-button {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  padding-top: 7px;
+  padding-right: 16px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: box-shadow 0.5s;
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweet-button:active {
+  opacity: 0.5;
+}
+
+.req-button {
+  background-color: black;
+  color: white;
+  height: 36px;
+  width: 105px;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.5s;
+}
+
+.req-button:hover {
+  opacity: 0.7;
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  height: 36px;
+  width: 150px;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 15px;
+  transition: background-color 0.5s;
+}
+
+.amazon-button:hover {
+  background-color: rgb(236, 199, 15);
+}
+
+.git-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  height: 36px;
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-weight: bold;
+  transition: box-shadow 0.5s;
+}
+
+.git-button:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.boot-button {
+  background-color: rgb(121, 82, 125);
+  color: white;
+  height: 36px;
+  width: 105px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 11px;
+  font-weight: bold;
+  transition: background-color 0.5s;
+}
+.boot-button:hover {
+  background-color: rgb(85, 47, 90);
+}
+
+.strap-button {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  height: 36px;
+  width: 105px;
+  border-color: rgb(108, 117, 125);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  border-style: solid;
+  font-size: 11px;
+  font-weight: bold;
+  border-width: 1px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.strap-button:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.linked-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 200px;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  transition: background-color 0.5s;
+}
+
+.linked-button:hover {
+  background-color: rgb(10, 80, 151);
+}
+
+.in-button {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  height: 36px;
+  width: 80px;
+  border-color: rgb(10, 102, 194);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  border-style: solid;
+  font-size: 13px;
+  font-weight: bold;
+  border-width: 1px;
+  border-radius: 18px;
+}
+.in-button:hover {
+  border-width: 1.88px;
+  border-color: rgb(10, 102, 194);
+  text-emphasis-color: rgb(10, 102, 194);
+  background-color: aliceblue;
+}

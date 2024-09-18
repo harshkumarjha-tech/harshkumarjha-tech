@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXERCISE 21 POSITION FIXED</title>
+  </head>
+  <body style="height: 3000px">
+    <div
+      style="
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+      "
+    ></div>
+    <div
+      style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: black;
+      "
+    >
+      <span style="color: white">bottom-right</span>
+    </div>
+    <div
+      style="
+        position: fixed;
+        background-color: green;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100px;
+      "
+    >
+      <span style="color: white">left-sidebar</span>
+    </div>
+    <div
+      style="
+        background-color: rgba(0, 0, 0, 0.6);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+      "
+    ></div>
+    <div style="position: fixed; top: 0; bottom: 0; right: 0; left: 0">
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          width: 200px;
+          background-color: white;
+          border-radius: 4px;
+          position: fixed;
+          top: 35%;
+          left: 40%;
+        "
+      >
+        <div>
+          <p
+            style="
+              font-family: Arial, Helvetica, sans-serif;
+              font-weight: bold;
+              margin-bottom: 0;
+              margin-left: 15px;
+              margin-top: 10px;
+            "
+          >
+            Modal Title
+          </p>
+        </div>
+        <div>
+          <p style="font-size: 12px; margin-left: 15px; margin-top: 5px; margin-bottom: 3px; font-family: Arial, Helvetica, sans-serif;">
+            This is a modal
+          </p>
+        </div>
+        <div>
+          <button
+            style="
+              margin-left: 15px;
+              margin-bottom: 10px;
+              font-size: 10px;
+              text-align: center;
+            "
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXERCISE 22 SIDEBARS</title>
+    <style>
+      .imgg {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-right: 10px;
+        margin-left: 40px;
+      }
+      .imgg1 {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-top: 10px;
+      }
+      .p2 {
+        color: rgb(100, 100, 100);
+        margin-left: -320px;
+        display: inline-block;
+        font-family: "Playwrite CU", cursive;
+        font-weight: bold;
+        color: white;
+        font-size: 13px;
+      }
+      .boot-button {
+        background-color: rgb(22, 22, 22);
+        color: white;
+        height: 36px;
+        width: 105px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 8px;
+        font-size: 11px;
+        font-weight: bold;
+        transition: background-color 0.5s, color 0.5s;
+      }
+      .boot-button:hover {
+        background-color: rgb(108, 117, 125);
+        color: rgb(47, 255, 0);
+      }
+
+      .strap-button {
+        background-color: rgb(76, 76, 76);
+        color: white;
+        height: 36px;
+        width: 105px;
+        border-color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 8px;
+        border-style: solid;
+        font-size: 11px;
+        font-weight: bold;
+        border-width: 1px;
+        transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+      }
+
+      .strap-button:hover {
+        background-color: rgb(108, 117, 125);
+        color: rgb(47, 255, 0);
+        border-color: rgb(47, 255, 0);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="padding-bottom: 2000px">
+    <div
+      style="
+        position: fixed;
+        background-color: rgb(67, 67, 67);
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+      "
+    >
+      <div
+        style="
+          position: fixed;
+          background-color: rgb(29, 29, 29);
+          top: 50px;
+          bottom: 0;
+          left: 0;
+          width: 70px;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            width: 70px;
+            align-items: center;
+          "
+        >
+          <img class="imgg1" src="thumbnail/cat.jpg" />
+          <img class="imgg1" src="thumbnail/dog.jpg" />
+          <img class="imgg1" src="thumbnail/cat2.jpg" />
+          <img class="imgg1" src="thumbnail/dog2.jpg" />
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          width: 200px;
+          padding-left: 85px;
+        "
+      >
+        <p
+          style="
+            font-family: Arial;
+            font-weight: bold;
+            color: white;
+            font-size: 10px;
+          "
+        >
+          INFO<span
+            style="
+              padding-left: 69px;
+              font-size: 18px;
+              font-weight: normal;
+              color: rgb(138, 138, 138);
+            "
+            >+</span
+          >
+        </p>
+        <p
+          style="
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-family: Arial;
+            color: grey;
+            font-size: 12px;
+          "
+        >
+          # new-videos
+        </p>
+        <p
+          style="
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-family: Arial;
+            color: grey;
+            font-size: 12px;
+          "
+        >
+          # updates
+        </p>
+        <p
+          style="
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-family: Arial;
+            color: grey;
+            font-size: 12px;
+          "
+        >
+          # FaQ
+        </p>
+      </div>
+    </div>
+    <div
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        background-color: rgb(76, 76, 76);
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          height: 50px;
+          justify-content: space-between;
+          border-bottom-width: 1px;
+          border-bottom-style: solid;
+          border-bottom-color: rgb(47, 255, 0);
+        "
+      >
+        <img class="imgg" src="thumbnail/5_big12-768x591.webp" />
+        <p class="p2">Electronic Arts</p>
+
+        <div>
+          <button class="boot-button">Get started</button>
+          <button class="strap-button">Download</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

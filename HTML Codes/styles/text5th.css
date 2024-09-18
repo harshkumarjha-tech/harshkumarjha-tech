@@ -1,0 +1,87 @@
+.text {
+    font-family: Tahoma;
+    font-weight: bold;
+  }
+  .deal {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+  }
+  .dealx {
+    color: rgb(200, 8, 8);
+    font-weight: normal;
+    font-size: 12px;
+    font-style: italic;
+  }
+  .course {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: verdana;
+    line-height: 18px;
+  }
+  .course1 {
+    color: gray;
+    font-size: 12px;
+    font-family: verdana;
+    margin: none;
+    font-weight: normal;
+  }
+  .course2 {
+    font-size: 13px;
+    font-family: verdana;
+    width: 230px;
+  }
+  .button {
+    background-color: rgb(5, 158, 5);
+    color: rgb(255, 255, 255);
+    padding-top: 7px;
+    padding-right: 14px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .text1 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+  }
+  .text2 {
+    font-family: Arial;
+    font-size: 10px;
+    margin-left: 40px;
+  }
+  .text3 {
+    font-family: Arial;
+    font-size: 10px;
+    margin-left: 85px;
+    color: blue;
+  }
+  .sensex {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .sen {
+    font-family: Arial;
+    font-size: 12px;
+    color: rgb(76, 82, 75);
+  }
+  .sen1 {
+    font-family: Arial;
+    font-size: 12px;
+    color: rgb(23, 106, 12);
+  }
+  .sen2 {
+    font-family: Arial;
+    font-size: 12px;
+    color: rgb(76, 82, 75);
+  }
+  .sen3 {
+    font-family: Arial;
+    font-size: 12px;
+    color: rgb(201, 10, 10);
+  }
